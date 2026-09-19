@@ -1,0 +1,11 @@
+# Never commit secrets, keys, or environment files
+.env
+*.pem
+*.key
+secrets.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
